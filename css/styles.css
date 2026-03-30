@@ -1,0 +1,200 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #4b0082, #ff6600);
+    min-height: 100vh;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    margin: 20px;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #4b0082, #6a0dad);
+    color: white;
+}
+
+
+
+.img-logo {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+
+.titulo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 8px;
+
+}
+
+.links a:hover {
+    background-color: #ff6600;
+
+}
+
+
+.img-banner {
+    width: 100%;
+    height: 700px;
+    padding: 60px;
+    border-radius: 100px;
+}
+
+.datos {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    background: white;
+}
+
+
+.img-gerente {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.info {
+    flex: 1;
+    padding: 20px;
+    border-radius: 12px;
+    background: #f5f5f5;
+}
+
+.info p {
+    margin: 15px 0;
+    font-weight: bold;
+    color: #4b0082;
+}
+
+
+.img-empresa {
+    width: 100%;
+    height: 700px;
+    padding: 60px;
+    border-radius: 100px;
+}
+
+/* FOOTER */
+.footer {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 12px;
+    background: #222;
+    color: white;
+}
+
+/* LOGIN */
+.login-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.login-form {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login-form label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.login-form input {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.login-form button {
+    background: linear-gradient(90deg, #ff6600, #ff944d);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+
+
+/* GALERIA */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    background-color: #ddd;
+}
+
+
+.card h3 {
+    color: #4b0082;
+    margin-top: 10px;
+}
+
+.card p {
+    margin: 5px 0;
+}
+
+
+.card input {
+    margin-top: 10px;
+    padding: 5px;
+    width: 60px;
+}
